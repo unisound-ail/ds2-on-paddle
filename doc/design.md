@@ -12,7 +12,7 @@
 
 目标：使用 Paddle 搭建一个训练 DS2 的声学模型的完整流程
 
-训练数据：约 100 小时中文普通话提取的 filter bank 特征， 训练语音为短句，有整句的汉字标注
+训练数据：[THCHS30](http://data.cslt.org/thchs30/README.html)， 约 30 小时中文普通话免费语音集
 
 模型结构：1 层 2-D Conv, 3 层 RNN (GRU/LSTM 都实现), 1 层 FCN, batch normalization
 
